@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="banco de jaimito" content="banco">
+    <meta name="bank" content="sesion banco, initial-scale=1.0">
+    <title>bank</title>
+</head>
+<body>
+<h1>bank</h1>
+<h2><i> inicio de sesion</i></h2>
+    <nav>
+        <li><button type= "button" onclick="f ()"> log in     </button> </li>
+    </nav>
+ <p>hola señor usuario bienvenido a su banco porfavor iniciar secion o resgiatrse gracias</p>
+ 
+ <hgroup>
+    <h2><i>registro</i></h2>
+    <l1> <button type="button" onclick = "R()"><U> AQUI </U></button></l1>
+ </hgroup>
+
+
+
+
+
+
+
+    
+</body>
+<script>
+let f = function(){
+let i = prompt("cual es la contraseña")
+if(i === null){
+    alert("ok")
+    return
+}
+var p = prompt("confirme contraseña")
+if(i==p) {
+    alert("contraseña valida")
+} else if (i != p ){
+    alert('contraeña invalida')
+} int=1
+if(i != p)  
+for (int=1; int<=2; int++) {
+     let e =   prompt('intenta')
+       if (e==i) {
+        alert("contraseña valida")
+        break;   }
+    else if (e != i) {
+    let e =  alert("de nuevo")    
+    } else if (e != i) {
+     let e=  alert("cuenta bloqueada")
+    }
+};
+}
+
+let R = function()  {
+let U = prompt("que usuario desea ")
+if( U === null) {
+    alert("")
+}
+let Reload = prompt("que contraseña desea")
+if( U === null) {
+    alert("")
+    return;
+}
+let Reload2 = prompt("digitela nuevamente")
+if(Reload == Reload2){
+    alert("ha sido registrado completamente")
+};if(Reload != Reload2){
+    alert("intentelo de nuevo")
+    if(Reload == Reload2){
+        alert("se completo el registro")
+        return;
+    }
+    for(z=1; z<=2; z++){
+        prompt("revise y digite nuevamente")
+        if(Reload == Reload2){
+            alert ("se completo el registro")
+        }
+        if(Reload != Reload2){
+            alert("invalido")
+        }
+    }
+
+}
+
+}
+
+
+var dinero = 50000
+
+
+
+
+
+
+</script>
+</html>
+
+    
