@@ -1,3 +1,10 @@
+*{
+margin: 1px;
+padding: 1px;
+}
+
+
+
 h1{
     font-size:  20px ;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -19,8 +26,55 @@ text-align: center;
     width: 960px;
     color: aqua;
 background: black;
-margin: auto;
+margin:15px auto;
+
+}
+
+.header{
+    padding: 15px ;
+    border: 2px solid #660066 ;
+    text-align: left;
+}
+
+.menu{
+    text-align: left;
 }
 
 
+.menu li{
+list-style: none;
+padding: 6px;
+font: bold 25px cakibri;
+border:2px solid #660066;
+display: inline-block;
 
+}
+
+.seccion{
+    color: black;
+    border:1px solid #660066;
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+article{
+background-color: #660066;
+border: 1px solid #660066;
+padding: 2px;
+margin-bottom: 15px ;
+
+
+}
+
+.columna{
+
+margin: 20px;
+border:1px solid #660066;
+width: 30% ;
+float:left;
+}
+
+.pie{
+    clear: both;
+}
