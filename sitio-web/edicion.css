@@ -19,7 +19,9 @@ display: block;
 }
 
 body {
-text-align: center;
+    background-color: black;
+text-align: center
+
 }
 
 .agrupar {
@@ -71,10 +73,29 @@ margin-bottom: 15px ;
 
 margin: 20px;
 border:1px solid #660066;
+background-color: #660066;
 width: 30% ;
 float:left;
 }
 
+.columna blockquote{
+margin: 20px;
+border: 2px solid  #660066;
+background-color: black;
+margin-bottom: 20PX;
+
+}
+
+
+
+time{
+color: #999;
+}
+
+
 .pie{
     clear: both;
+    padding: 20px;
+    background-color:  #660066;
+    color: black;
 }
